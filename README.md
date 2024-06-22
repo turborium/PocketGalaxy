@@ -2,6 +2,7 @@
 **PocketGalaxy animated pixel effect**
 
 ---
+Precompiled exe: https://github.com/turborium/PocketGalaxy/raw/main/PocketGalaxy.exe  
 
 ![scr](scr.png)
 
