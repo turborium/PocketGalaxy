@@ -1,0 +1,65 @@
+object FormMain: TFormMain
+  Left = 519
+  Height = 800
+  Top = 250
+  Width = 800
+  Caption = 'PocketGalaxy'
+  ClientHeight = 800
+  ClientWidth = 800
+  DesignTimePPI = 154
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnResize = FormResize
+  OnShow = FormShow
+  Position = poScreenCenter
+  object StatusBar: TStatusBar
+    Left = 0
+    Height = 35
+    Top = 765
+    Width = 800
+    Panels = <    
+      item
+        Text = 'FPS: 00'
+        Width = 80
+      end    
+      item
+        Text = 'Width: 000'
+        Width = 120
+      end    
+      item
+        Text = 'Height: 000'
+        Width = 120
+      end    
+      item
+        Text = 'Expected FPS: 00'
+        Width = 160
+      end    
+      item
+        Text = 'Made with love by @Turborium'
+        Width = 280
+      end    
+      item
+        Width = 50
+      end>
+    SimplePanel = False
+  end
+  object PaintBox: TPaintBox
+    Left = 0
+    Height = 765
+    Top = 0
+    Width = 800
+    Align = alClient
+    OnPaint = PaintBoxPaint
+  end
+  object Timer: TTimer
+    Interval = 1
+    OnTimer = TimerTimer
+    Left = 199
+    Top = 98
+  end
+  object TimerFps: TTimer
+    OnTimer = TimerFpsTimer
+    Left = 272
+    Top = 98
+  end
+end
