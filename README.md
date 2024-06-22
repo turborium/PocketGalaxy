@@ -7,7 +7,7 @@ Precompiled exe: https://github.com/turborium/PocketGalaxy/raw/main/PocketGalaxy
 ![scr](scr.png)
 
 Maked by Lazarus(ObjectPascal) with love.  
-Also, see JavaScript version: https://github.com/turborium/PocketGalaxyJs
+Also, see JavaScript version: https://github.com/turborium/PocketGalaxyJs and run online.
 
 ---
 Inspired by article [Complex beauty in a simple formula](https://habr.com/ru/articles/817869/) and comment by [kipar](https://habr.com/ru/articles/817869/#comment_26881773) with code:
