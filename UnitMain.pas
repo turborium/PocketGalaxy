@@ -1,3 +1,9 @@
+// Turborium(c) 2024-2024
+//
+// Inspired by https://habr.com/ru/articles/817869/#comment_26881773
+// and https://habr.com/ru/articles/817869/
+//
+// Source code: https://github.com/turborium/PocketGalaxy
 unit UnitMain;
 
 {$mode delphiunicode}
