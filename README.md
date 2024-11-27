@@ -1,6 +1,8 @@
 # PocketGalaxy
 **PocketGalaxy animated pixel effect**
 
+[Powered By Lazarus (ObjectPascal)](https://www.lazarus-ide.org/)  
+
 ---
 Precompiled exe: https://github.com/turborium/PocketGalaxy/raw/main/PocketGalaxy.exe  
 
